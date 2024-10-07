@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <form method="POST" action="<?= URL.WEBAPP ?>">
+      <table>
+        <tr>
+          <td>ログインID</td>
+          <td><input type="text" id="loginId" name="loginId"></td>
+        </tr>
+        <tr>
+          <td>パスワード</td>
+          <td><input type="password" id="password" name="password"></td>
+        </tr>
+      </table>
+      <button type="submit" name="submit">ログイン</button>
+    </form>
+  </body>
+</html>
